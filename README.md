@@ -18,3 +18,9 @@ Repositorio de practica para la fase 0: herramientas del informatico.
 - `git add`: prepara archivos para un commit.
 - `git commit -m "mensaje"`: guarda cambios en el historial.
 - `git log --oneline`: muestra el historial resumido.
+
+## Notas personales
+
+- Git local guarda el historial en la carpeta oculta `.git`.
+- Un commit guarda una version del proyecto en mi computador.
+- Push sirve para subir commits a un repositorio remoto.
