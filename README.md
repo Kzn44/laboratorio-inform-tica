@@ -14,7 +14,7 @@ Repositorio de practica para la fase 0: herramientas del informatico.
 ### Git
 
 - `git init`: inicializa un repositorio.
-- `git status`: muestra cambios pendientes y la rama actual.
+- `git status`: muestra el estado actual del repositorio, la rama actual y los cambios pendientes.
 - `git add`: prepara archivos para un commit.
 - `git commit -m "mensaje"`: guarda cambios en el historial.
 - `git log --oneline`: muestra el historial resumido.
