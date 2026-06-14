@@ -24,3 +24,10 @@ Repositorio de practica para la fase 0: herramientas del informatico.
 - Git local guarda el historial en la carpeta oculta `.git`.
 - Un commit guarda una version del proyecto en mi computador.
 - Push sirve para subir commits a un repositorio remoto.
+
+## Rutas
+
+- Una ruta absoluta indica la ubicacion completa desde la raiz del sistema.
+- Una ruta relativa depende de la carpeta actual.
+- `.` representa la carpeta actual.
+- `..` representa la carpeta anterior.
