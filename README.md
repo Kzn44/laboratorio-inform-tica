@@ -39,3 +39,14 @@ Repositorio de practica para la fase 0: herramientas del informatico.
 ## Historial
 
 - `git log --oneline --graph --all` muestra el historial como grafo.
+
+## PowerShell
+
+- `New-Item`: crea archivos o carpetas.
+- `Set-Content`: escribe contenido reemplazando lo anterior.
+- `Add-Content`: agrega contenido al final de un archivo.
+- `Get-Content`: muestra el contenido de un archivo.
+- `Copy-Item`: copia archivos o carpetas.
+- `Move-Item`: mueve archivos o carpetas.
+- `Rename-Item`: cambia el nombre de un archivo o carpeta.
+- `Remove-Item`: elimina archivos o carpetas.
