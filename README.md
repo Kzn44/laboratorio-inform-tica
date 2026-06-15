@@ -35,3 +35,7 @@ Repositorio de practica para la fase 0: herramientas del informatico.
 ## Rebase
 
 - `git rebase` permite mover commits de una rama para que queden encima de otra.
+
+## Historial
+
+- `git log --oneline --graph --all` muestra el historial como grafo.
