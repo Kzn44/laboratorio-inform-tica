@@ -31,3 +31,7 @@ Repositorio de practica para la fase 0: herramientas del informatico.
 - Una ruta relativa depende de la carpeta actual.
 - `.` representa la carpeta actual.
 - `..` representa la carpeta anterior.
+
+## Rebase
+
+- `git rebase` permite mover commits de una rama para que queden encima de otra.
