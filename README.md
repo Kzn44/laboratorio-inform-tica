@@ -4,15 +4,46 @@ Repositorio de practica para la fase 0: herramientas del informatico.
 
 ## Comandos aprendidos
 
-### Terminal
+### Bash
 
 - `pwd`: muestra la ruta actual.
+- `whoami`: muestra el usuario actual.
+- `hostname`: muestra el nombre del equipo.
 - `ls`: lista archivos y carpetas.
 - `cd`: cambia de carpeta.
 - `cd ..`: sube a la carpeta anterior.
 - `mkdir`: crea una carpeta.
+- `touch archivo.txt`: crea un archivo vacio o actualiza su fecha de modificacion.
+- `echo "texto"`: muestra texto en la terminal.
+- `cat archivo.txt`: muestra el contenido de un archivo.
+- `cp origen destino`: copia archivos o carpetas.
+- `mv origen destino`: mueve o renombra archivos o carpetas.
+- `comando > archivo.txt`: redirige la salida a un archivo, reemplazando su contenido.
+- `comando >> archivo.txt`: redirige la salida a un archivo, agregando al final.
 - `.`: representa la carpeta actual.
 - `..`: representa la carpeta anterior.
+- `ls -la`: lista archivos con detalles y archivos ocultos.
+- `echo "texto" > archivo`: escribe reemplazando el contenido.
+- `echo "texto" >> archivo`: agrega texto al final.
+- `rm archivo`: elimina archivos.
+- `grep "texto" archivo`: busca texto dentro de un archivo.
+- `chmod +x archivo.sh`: agrega permiso de ejecucion.
+- `./archivo.sh`: ejecuta un script en la carpeta actual.
+- `ps`: muestra procesos de la terminal actual.
+- `ps aux`: muestra procesos del sistema.
+- `ps aux | grep nombre`: busca procesos por nombre.
+- `kill PID`: termina un proceso por su identificador.
+- `jobs`: muestra trabajos en segundo plano.
+- `sleep 300 &`: ejecuta un proceso en segundo plano.
+
+### Scripts Bash
+
+- Shebang: `#!/bin/bash`.
+- Primer argumento: `$1`.
+- Variable: `nombre=$1`.
+- Valor por defecto: `ruta=${2:-.}`.
+- Ejecutar comando y guardar salida: `cantidad=$(ls "$ruta" | wc -l)`.
+- Condicion: `if [ "$cantidad" -eq 0 ]; then ... else ... fi`.
 
 ### Rutas
 
