@@ -153,6 +153,21 @@ Configuracion usada para el laboratorio:
 
 La VM sirve para practicar comandos, scripts, permisos, procesos y configuraciones sin arriesgar el sistema Windows principal. Si algo se rompe, se puede volver al checkpoint.
 
+### Tipos de maquinas virtuales
+
+- Maquina virtual de sistema: simula un computador completo y ejecuta un sistema operativo invitado. Ejemplo: Debian dentro de Hyper-V.
+- Maquina virtual de lenguaje: ejecuta programas de un lenguaje dentro de un runtime controlado. Ejemplos: JVM, .NET CLR, BEAM.
+- En este laboratorio se uso una maquina virtual de sistema.
+
+Resumen del laboratorio:
+
+- Host: Windows 11 Pro.
+- Guest: Debian GNU/Linux 13 (trixie).
+- Hipervisor: Hyper-V.
+- ISO: medio de instalacion.
+- Disco virtual: lugar donde queda instalado Debian.
+- Checkpoint: punto de restauracion de la VM.
+
 ## Flujo remoto
 
 - El repositorio esta conectado a GitHub como remoto.
