@@ -145,25 +145,28 @@ Configuracion usada para el laboratorio:
 - VM: `debian-lab`.
 - Sistema: Debian 13.
 - Hipervisor: Hyper-V.
+- Hostname dentro de Debian: `kzn`.
+- Usuario de practica: `kzn`.
+- Red: funcionando, verificada con `ping -c 4 deb.debian.org`.
+- Checkpoint creado: instalacion limpia de Debian.
 - Uso: laboratorio seguro para Bash, Linux basico, permisos y procesos.
 
-- Repo clonado en Debian para practicar flujo remoto.
+La VM sirve para practicar comandos, scripts, permisos, procesos y configuraciones sin arriesgar el sistema Windows principal. Si algo se rompe, se puede volver al checkpoint.
 
 ## Flujo remoto
 
+- El repositorio esta conectado a GitHub como remoto.
 - Windows puede subir cambios a GitHub con `git push`.
 - Debian puede clonar el repositorio con `git clone`.
 - Debian puede subir cambios a GitHub con `git push`.
 - Windows puede traer cambios desde GitHub con `git pull`.
+- Debian puede traer cambios desde GitHub con `git pull`.
 - GitHub CLI (`gh auth login`) permite autenticarse desde Debian.
-
-## Flujo remoto y VM
-
-- El repositorio esta conectado a GitHub como remoto.
-- Windows y Debian pueden sincronizar cambios usando `git push` y `git pull`.
-- Debian se usa como laboratorio Linux dentro de Hyper-V.
-- GitHub CLI permite autenticarse con `gh auth login`.
+- Flujo probado: Windows -> GitHub -> Debian.
+- Flujo probado: Debian -> GitHub -> Windows.
 
 ## Pull Request
 
-- Un pull request permite
+- Un pull request permite proponer cambios desde una rama antes de integrarlos a `master`.
+- Sirve para revisar diferencias, comentar y aprobar cambios antes del merge.
+- Flujo practicado: crear rama, subirla a GitHub, abrir PR, hacer merge y actualizar `master` con `git pull`.
