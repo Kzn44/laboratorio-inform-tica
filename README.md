@@ -157,3 +157,9 @@ Configuracion usada para el laboratorio:
 - Windows puede traer cambios desde GitHub con `git pull`.
 - GitHub CLI (`gh auth login`) permite autenticarse desde Debian.
 
+## Flujo remoto y VM
+
+- El repositorio esta conectado a GitHub como remoto.
+- Windows y Debian pueden sincronizar cambios usando `git push` y `git pull`.
+- Debian se usa como laboratorio Linux dentro de Hyper-V.
+- GitHub CLI permite autenticarse con `gh auth login`.
