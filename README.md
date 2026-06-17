@@ -37,6 +37,21 @@ Repositorio de practica para la fase 0: herramientas del informatico.
 - `git rebase --skip`: salta el commit actual durante un rebase.
 - `git rebase --abort`: cancela un rebase y vuelve al estado anterior.
 
+### Flags comunes de Git
+
+- `-m`: se usa en `git commit -m "mensaje"` para escribir el mensaje del commit.
+- `-u`: se usa en `git push -u origin master` para conectar una rama local con su rama remota.
+- `-n`: se usa en `git log -n 5` para limitar la cantidad de commits mostrados.
+- `--oneline`: se usa en `git log --oneline` para mostrar cada commit en una sola linea.
+- `--graph`: se usa en `git log --graph` para mostrar ramas y merges como grafo.
+- `--all`: se usa en `git log --all` para incluir todas las ramas.
+- `-c`: se usa en `git switch -c nombre-rama` para crear una rama y cambiarse a ella.
+- `-d`: se usa en `git branch -d nombre-rama` para borrar una rama local ya integrada.
+- `-D`: se usa en `git branch -D nombre-rama` para borrar una rama local aunque no este integrada.
+- `--continue`: continua una operacion pausada, como un `rebase`, despues de resolver conflictos.
+- `--abort`: cancela una operacion en curso, como un `merge` o `rebase`.
+- `--skip`: salta el commit actual durante un `rebase`.
+
 ### Notas de Git
 
 - Git local guarda el historial en la carpeta oculta `.git`.
