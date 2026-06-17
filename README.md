@@ -163,3 +163,7 @@ Configuracion usada para el laboratorio:
 - Windows y Debian pueden sincronizar cambios usando `git push` y `git pull`.
 - Debian se usa como laboratorio Linux dentro de Hyper-V.
 - GitHub CLI permite autenticarse con `gh auth login`.
+
+## Pull Request
+
+- Un pull request permite
