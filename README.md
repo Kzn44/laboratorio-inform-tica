@@ -157,3 +157,4 @@ Configuracion usada para el laboratorio:
 - Windows puede traer cambios desde GitHub con `git pull`.
 - GitHub CLI (`gh auth login`) permite autenticarse desde Debian.
 
+## VM Debian
