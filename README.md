@@ -147,4 +147,13 @@ Configuracion usada para el laboratorio:
 - Hipervisor: Hyper-V.
 - Uso: laboratorio seguro para Bash, Linux basico, permisos y procesos.
 
--Repo clonado en Debian para practicar flujo remoto.
+- Repo clonado en Debian para practicar flujo remoto.
+
+## Flujo remoto
+
+- Windows puede subir cambios a GitHub con `git push`.
+- Debian puede clonar el repositorio con `git clone`.
+- Debian puede subir cambios a GitHub con `git push`.
+- Windows puede traer cambios desde GitHub con `git pull`.
+- GitHub CLI (`gh auth login`) permite autenticarse desde Debian.
+
