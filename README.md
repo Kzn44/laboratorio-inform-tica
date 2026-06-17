@@ -146,3 +146,5 @@ Configuracion usada para el laboratorio:
 - Sistema: Debian 13.
 - Hipervisor: Hyper-V.
 - Uso: laboratorio seguro para Bash, Linux basico, permisos y procesos.
+
+-Repo clonado en Debian para practicar flujo remoto.
