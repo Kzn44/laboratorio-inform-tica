@@ -200,3 +200,9 @@ Resumen del laboratorio:
 - Un pull request permite proponer cambios desde una rama antes de integrarlos a `master`.
 - Sirve para revisar diferencias, comentar y aprobar cambios antes del merge.
 - Flujo practicado: crear rama, subirla a GitHub, abrir PR, hacer merge y actualizar `master` con `git pull`.
+
+## VSCode
+
+- VSCode permite editar archivos, usar terminal integrada, buscar en todo el proyecto y revisar cambios de Git.
+- El panel Source Control muestra archivos modificados, diferencias y permite hacer commits.
+- La terminal integrada permite ejecutar comandos sin salir del editor.
